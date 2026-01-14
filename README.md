@@ -1,10 +1,10 @@
-# 我的 Claude Skills
+# 我的 Claude Commands
 
-个人 Claude Code skills 集合
+个人 Claude Code commands 集合
 
 ## 一键安装
 
-**注意**：安装到机器根目录 `~/.claude/skills`，不是项目目录。
+**注意**：安装到机器根目录 `~/.claude/commands`，不是项目目录。
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/lkyxuan/claude-skills/main/install.sh | bash
@@ -16,23 +16,23 @@ curl -fsSL https://raw.githubusercontent.com/lkyxuan/claude-skills/main/install.
 wget -qO- https://raw.githubusercontent.com/lkyxuan/claude-skills/main/install.sh | bash
 ```
 
-## Skills 列表
+## Commands 列表
 
-- **docs.md** - 文档同步 skill
-- **push.md** - 智能提交并推送 skill
-- **task.md** - 任务管理 skill
+- **docs.md** - 文档同步 command
+- **push.md** - 智能提交并推送 command
+- **task.md** - 任务管理 command
 
-## 添加新 Skill
+## 添加新 Command
 
 ```bash
 cd ~/claude-skills-repo
-mkdir skills/新skill名
-nano skills/新skill名/SKILL.md
+mkdir commands/新command名
+nano commands/新command名/SKILL.md
 git add .
-git commit -m "Add 新skill"
+git commit -m "Add 新command"
 git push
 ```
 
-## 更新 Skills
+## 更新 Commands
 
 重新运行安装命令即可更新到最新版本。
