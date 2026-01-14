@@ -1,9 +1,11 @@
 # 我的 Claude Skills
 
-## 安装
+个人 Claude Code skills 集合
+
+## 一键安装
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-skills.git /tmp/claude-skills && cp -r /tmp/claude-skills/skills/* ~/.claude/skills/ && rm -rf /tmp/claude-skills
+git clone https://github.com/lkyxuan/claude-skills.git /tmp/claude-skills && cp -r /tmp/claude-skills/skills/* ~/.claude/skills/ && rm -rf /tmp/claude-skills
 ```
 
 ## Skills 列表
