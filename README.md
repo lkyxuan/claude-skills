@@ -16,8 +16,9 @@ wget -qO- https://raw.githubusercontent.com/lkyxuan/claude-skills/main/install.s
 
 ## Skills 列表
 
-- **push** - 一键提交推送 skill
-- 更多 skills 持续添加中...
+- **docs.md** - 文档同步 skill
+- **push.md** - 智能提交并推送 skill
+- **task.md** - 任务管理 skill
 
 ## 添加新 Skill
 
