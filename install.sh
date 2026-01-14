@@ -2,11 +2,14 @@
 
 set -e
 
+# 安装到用户主目录（机器根目录），不是项目目录
 SKILLS_DIR="$HOME/.claude/skills"
 REPO_URL="https://github.com/lkyxuan/claude-skills.git"
 TMP_DIR="/tmp/claude-skills-$$"
 
 echo "🚀 安装 Claude Skills..."
+echo "📁 安装位置: $SKILLS_DIR (机器根目录)"
+echo ""
 
 # 创建 skills 目录
 mkdir -p "$SKILLS_DIR"

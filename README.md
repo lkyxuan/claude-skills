@@ -4,6 +4,8 @@
 
 ## 一键安装
 
+**注意**：安装到机器根目录 `~/.claude/skills`，不是项目目录。
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/lkyxuan/claude-skills/main/install.sh | bash
 ```
